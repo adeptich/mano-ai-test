@@ -8,10 +8,36 @@
 
 @layer base {
   html {
-    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-      "Open Sans", "Helvetica Neue", sans-serif !important;
+    font-family:
+      "Inter",
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      "Open Sans",
+      "Helvetica Neue",
+      sans-serif !important;
     font-feature-settings: "kern" !important;
     -webkit-font-smoothing: antialiased;
     letter-spacing: -0.5px;
   }
+}
+
+.ag-theme-alpine {
+  --ag-background-color: #f9fafb;
+  --ag-header-background-color: #1f2937;
+  --ag-header-foreground-color: #f9fafb;
+  --ag-header-column-separator-color: #374151;
+  --ag-odd-row-background-color: #ffffff;
+  --ag-row-hover-color: #f3f4f6;
+  --ag-selected-row-background-color: #e5e7eb;
+  --ag-border-color: #d1d5db;
+}
+
+.ag-root-wrapper {
+  font-family: "Inter", sans-serif;
 }
